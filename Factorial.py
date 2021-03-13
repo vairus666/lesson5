@@ -19,5 +19,5 @@ while n:
         print(fac(int(n)))
         break
     else:
-        print("Enter can't integer number")
+        print(f"{n} can't integer number")
         n = input('Enter integer number\n')
