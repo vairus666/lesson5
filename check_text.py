@@ -1,9 +1,8 @@
 # #Check text
 
-import collections
 
 def sum_text(string):
-    return sum(collections.Counter(string).values())     
+    return len(string)    
 
 def sum_words(string): 
     return string.count(' ') + 1
