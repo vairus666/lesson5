@@ -1,13 +1,14 @@
-# #Check text
-
-
+# Считает количество символов, слов и предложений в тексте
 def sum_text(string):
+    # Длинна строки
     return len(string)    
 
-def sum_words(string): 
+def sum_words(string):
+    # Колличество слов
     return string.count(' ') + 1
 
 def sum_sentence(string):
+    # Количество предложений
     if string == '':
         return 0
     else:

@@ -1,15 +1,10 @@
+# Вычисление факториала без рекурсии
 from functools import reduce
-
-def isint(s):
-    try:
-        int(s)
-        return True
-    except ValueError:
-        return False
+from homework import helping
  
 n = input('Enter integer number\n')
 while n:
-    if isint(n):
+    if helping.isint(n):
         n = int(n)
         print (reduce(lambda x,y:x*y,range(1,n+1)))
         break
